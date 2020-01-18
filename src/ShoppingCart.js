@@ -18,6 +18,11 @@ module.exports = class {
     this.items.push(item)
     return this.items
   }
+
+  clear() {
+    this.items = []
+    return this.items
+  }
  
 }
 
