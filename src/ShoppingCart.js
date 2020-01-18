@@ -23,6 +23,14 @@ module.exports = class {
     this.items = []
     return this.items
   }
+
+  total() {
+    const total = this.items.reduce((total, currentProduct) => {
+      return total + (currentProduct.pricePerUnit * currentProduct.quantity) 
+    }, 0)
+    // console.log(total)
+    return total
+  }
  
 }
 
