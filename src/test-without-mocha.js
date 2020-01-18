@@ -7,9 +7,9 @@
 // cart.getItems()
 // cart.total()
 
-const groupAdultsByAgeRange = require("./transform").groupAdultsByAgeRange
-const grouping = groupAdultsByAgeRange([])
-console.log(grouping)
+// const groupAdultsByAgeRange = require("./transform").groupAdultsByAgeRange
+// const grouping = groupAdultsByAgeRange([])
+// console.log(grouping)
 // const grouping2 = groupAdultsByAgeRange([
 //   { name: "pete", age: 10 },
 //   { name: "dove", age: 17 },
