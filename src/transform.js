@@ -1,10 +1,10 @@
 module.exports.groupAdultsByAgeRange = function(objectArray) {
-  const ifEmpty = {}
+  const over18 = objectArray.filter(person => person.age >= 18)
   
-  if(objectArray[0] === undefined) {
-    return ifEmpty
+  if(over18[0] === undefined) {
+    return {}
   }
   else {
-    return objectArray
+    return over18
   }
 }
